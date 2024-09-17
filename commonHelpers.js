@@ -8,7 +8,7 @@
       <button class="download-btn" data-link="${e.link}">Download
       <div class="svg-wrapper">
       <svg class="svg-icon" width="18" height="18" aria-label="icon-download">
-      <use href="../img/sprite.svg#icon-download"/>
+      <use href="./img/sprite.svg#icon-download"/>
       </svg>
       </div>
       </button>
