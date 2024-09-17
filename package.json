@@ -1,0 +1,20 @@
+{
+  "name": "test-task-banner",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/test-task-banner/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.5.2",
+    "glob": "^8.1.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}
