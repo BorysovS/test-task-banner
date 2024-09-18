@@ -1,3 +1,5 @@
+import sprite from '../img/sprite.svg';
+
 export function createProductMarkup(product) {
   let specialClass = 'supply-list-item-amount-wrap';
   const productName = product.name_display.split(' ').slice(0, 3).join(' ');
@@ -20,7 +22,7 @@ export function createProductMarkup(product) {
       <button class="download-btn" data-link="${product.link}">Download
       <div class="svg-wrapper">
       <svg class="svg-icon" width="18" height="18" aria-label="icon-download">
-      <use href="./img/sprite.svg#icon-download"/>
+      <use href="${sprite}#icon-download"/>
       </svg>
       </div>
       </button>
